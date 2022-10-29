@@ -11,7 +11,7 @@ def ball(balls, wickets=0):
             print("You've chosed", user, "\n")
         else:
             print('Enter number from 1 to 6')
-            balls
+            balls -= 1
             continue
         computer = random.randint(1, 6)
         print("Computer chose", computer, "\n")
@@ -36,6 +36,7 @@ def ball(balls, wickets=0):
             print("You've inputed", user, "\n")
         else:
             print('Enter number from 1 to 6')
+            balls -= 1
             continue
         computer = random.randint(1, 6)
         print("Computer chose", computer, "\n")
@@ -68,6 +69,7 @@ def bat(balls, wickets=0):
             print("You've inputed", user, "\n")
         else:
             print('Enter number from 1 to 6')
+            balls -= 1
             continue
         computer = random.randint(1, 6)
         print("Computer chose", computer, "\n")
@@ -92,6 +94,7 @@ def bat(balls, wickets=0):
             print("You've inputed", user, "\n")
         else:
             print('Enter number from 1 to 6')
+            balls -= 1
             continue
         computer = random.randint(1, 6)
         print("Computer chose", computer, "\n")
